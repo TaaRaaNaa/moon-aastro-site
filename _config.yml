@@ -1,0 +1,12 @@
+# GitHub Pages configuration
+# This site is plain static HTML/CSS/JS — no Jekyll processing needed.
+theme: null
+plugins: []
+
+# Prevents Jekyll from trying to process files/folders starting with
+# underscores or dots, and ignores files not needed in the build.
+exclude:
+  - README.md
+  - LICENSE
+  - "*.zip"
+  - .gitignore
